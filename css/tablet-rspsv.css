@@ -1,0 +1,50 @@
+/* heropage */
+.heropage h1{
+    font-size: 80px;
+}
+
+/* where you want to go? */
+.where{
+    padding: 20px;
+}
+
+.input-box{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,1fr));
+}
+
+/* popular-destination */
+.destination{
+    grid-template-columns: repeat(2, minmax(0,1fr));
+}
+
+/* newslatter */
+.newslatter{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.right-nl input{
+    width: 100%;
+}
+
+/* Popular Places */
+.places{
+    grid-template-columns: repeat(2, minmax(0,1fr));
+}
+
+/* hotel-detail */
+.hotel-detail{
+    flex-direction: column;
+}
+
+
+/* resent trips */
+.trip-detail span{
+    font-size: 12px;
+}
+
+.trip-detail h3{
+    font-size: 14px;
+}

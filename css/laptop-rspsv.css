@@ -1,0 +1,107 @@
+/* navbar */
+nav{
+    padding: 20px;
+}
+
+ul{
+    position: absolute;
+    flex-direction: column;
+    top: 85px;
+    right: 0;
+    gap: 15px;
+    background-color: #ff4a52;
+    padding: 20px;
+    width: 200px;
+    height: 100vh;
+}
+
+ul a{
+    color: white;
+}
+
+ul.active{
+    animation: slide-in 0.6s ease-in-out;
+}
+
+ul:not(.active){
+    animation: slide-out 0.6s ease-in-out forwards;
+}
+
+@keyframes slide-in {
+    0%{
+        transform: translateX(100%);
+    }    
+
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-out {
+    0%{
+        transform: translateX(0%);
+    }    
+
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+.search{
+    display: none;
+}
+
+.menu-toggle{
+    display: block;
+}
+
+/* where you want to go */
+.where{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* popular-destination */
+.inside-text p{
+    font-size: 20px;
+}
+
+.inside-text span{
+    font-size: 16px;
+}
+
+/* popular-places */
+.popular-places{
+    padding: 20px;
+}
+
+/* hotel-detail */
+.hotel-detail h1{
+    font-size: 20px;
+}
+
+.hotel-detail p{
+    font-size: 14px;
+}
+
+
+/* resent-trips */
+.resent-trips{
+    padding: 20px;
+}
+
+
+/* footer */
+footer{
+    flex-direction: column;
+}
+
+.left-side-footer img{
+    width: 100px;
+}
+
+.right-side-footer{
+    gap: 50px;
+    margin: 50px 0;
+}

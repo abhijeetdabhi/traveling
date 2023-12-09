@@ -1,0 +1,58 @@
+/* navbar */
+.icons{
+    display: none;
+}
+
+/* heropage */
+.heropage{
+    padding: 128px 20px;
+}
+
+.heropage h1{
+    font-size: 50px;
+}
+
+/* popular-destination */
+.popular-destination{
+    padding: 20px;
+}
+
+.popular-detail p{
+    width: 100%;
+}
+
+.destination{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+/* Popular Places */
+.places{
+    grid-template-columns: repeat(1, minmax(0,1fr));
+}
+
+/* video */
+.video h1{
+    font-size: 50px;
+}
+
+.video i{
+    font-size: 40px;
+}
+
+/* resent trips */
+.trips{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.trip-detail span{
+    font-size: 12px;
+}
+
+.trip-detail h3{
+    font-size: 20px;
+}
+
+/* footer */
+.right-side-footer{
+    flex-direction: column;
+}
